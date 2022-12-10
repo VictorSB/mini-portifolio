@@ -1,0 +1,168 @@
+body{
+    background-image: url(../imagens/fundo-site.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: 'Ubuntu';
+    color: #f3f3f3;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+    box-shadow: inset 10px -1px 100px rgba(255, 255, 255, 0.196)
+}
+.cartao{
+    background-color: #0c1b2465;
+    width: 380px;
+    border: 3px solid #000000;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.386);
+    border-radius: 10px;
+    overflow: hidden;
+}
+.cartao .infos{
+    padding-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+.cartao .infos img{
+    border-radius: 50px 10px;
+    border: 3px solid black;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.457);
+}
+.cartao .infos .nome{
+    font-size: 26px;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.cartao .infos .cargo {
+    font-size: 20px;
+    color: #b8bbc5;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.cartao .conteudo{
+    margin-top: 15px;
+}
+.cartao .abas{
+    display: flex;
+}
+.cartao .abas .aba{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 10px 0;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+.cartao .abas img{
+    width: 30px;
+}
+.cartao .abas .aba.selecionado{
+    background-color: #0a1d27de;
+    border-radius: 10px 10px 0 0;
+}
+.cartao .infos-abas{
+    background-color: #0a1d27de;
+}
+.cartao .abas .aba:hover{
+    background-color: #123346de;
+    border-radius: 10px 10px 0 0;
+}
+.infos-abas .informacao{
+    min-height: 260px;
+    padding: 15px;
+    display: none;
+} 
+.infos-abas .informacao.selecionado{
+    display: block;
+}
+.infos-abas .sub-titulo{
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+.infos-abas .descricao{
+    font-size: 18px;
+    max-height: 180px;
+    overflow-y: auto;
+    padding-right: 15px;
+}
+.infos-abas .descricao span{
+    color: #02455c
+}
+
+.projetos{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    max-height: 180px;
+    overflow-y: auto;
+}
+.projetos li a{
+    width: 250px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.projetos .cardapio{
+    background-image: linear-gradient(to bottom left, #edb7da, #bd4b97);
+}
+.projetos .login-master{
+    background-image: linear-gradient(to bottom left, #e26b0a, #f0b991);
+}
+.projetos .sete-pecados{
+    background-image: linear-gradient(to bottom left, #04277e, #8d8dee);
+}
+.projetos .nft-card{
+    background-image: linear-gradient(to bottom left, #167e04, #8dee92);
+}
+.projetos li a:hover{
+    opacity: 0.6;
+}
+
+.redes-sociais{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    align-items: center;
+    max-height: 180px;
+    overflow-y: auto;
+}
+.redes-sociais li a{
+    width: 250px;
+    display: block;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: 10px;
+}
+.redes-sociais .instagram{
+    background-image: linear-gradient(to bottom left, #ef4508, #de1641, #914bbd);
+}
+.redes-sociais .linkedin{
+    background-image: linear-gradient(to bottom left, #1d87bd, #2fadf0);
+}
+.redes-sociais .github{
+    background-image: linear-gradient(to bottom left, #161515, #474646);
+}
+.redes-sociais .whatsapp{
+    background-image: linear-gradient(to bottom left, #117e03, #49e82d);
+}
+.redes-sociais li a:hover{
+    opacity: 0.6;
+}
+.redes-sociais i{
+    font-size: 22px;
+}
+
+
+
+
