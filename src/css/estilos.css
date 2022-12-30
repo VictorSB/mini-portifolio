@@ -123,6 +123,9 @@ body{
 .projetos .nft-card{
     background-image: linear-gradient(to bottom left, #167e04, #8dee92);
 }
+.projetos .projeto-marvel{
+    background-image: linear-gradient(to bottom left, #862323, #0622a1);
+}
 .projetos li a:hover{
     opacity: 0.6;
 }
