@@ -126,6 +126,9 @@ body{
 .projetos .projeto-marvel{
     background-image: linear-gradient(to bottom left, #862323, #0622a1);
 }
+.projetos .projeto-github{
+    background-image: linear-gradient(to bottom left, #c16621, #1a2a70);
+}
 .projetos li a:hover{
     opacity: 0.6;
 }
