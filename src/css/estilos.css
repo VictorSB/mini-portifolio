@@ -120,6 +120,9 @@ body{
 .projetos .ragnarok{
     background-image: linear-gradient(to bottom left, #04277e, #8d8dee);
 }
+.projetos .mario{
+    background-image: linear-gradient(to bottom left, #b40306, #fa2121);
+}
 .projetos .nft-card{
     background-image: linear-gradient(to bottom left, #167e04, #8dee92);
 }
