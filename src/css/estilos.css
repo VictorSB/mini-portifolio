@@ -114,6 +114,9 @@ body{
 .projetos .cardapio{
     background-image: linear-gradient(to bottom left, #edb7da, #bd4b97);
 }
+.projetos .valorant{
+    background-image: linear-gradient(to bottom left, #ca0303, #000000);
+}
 .projetos .login-master{
     background-image: linear-gradient(to bottom left, #e26b0a, #f0b991);
 }
