@@ -6,11 +6,13 @@
   
   /* Works on Chrome, Edge, and Safari */
   *::-webkit-scrollbar {
-    width: 12px;
+    width: 10px;
+    height: 10px;
   }
   
   *::-webkit-scrollbar-track {
-    background: #070d12;
+    background: #151619c4;
+    border-radius: 20px;
   }
   
   *::-webkit-scrollbar-thumb {
