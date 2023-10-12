@@ -1,5 +1,5 @@
 body{
-    background-image: url(../imagens/fundo-site.png);
+    background-image: url(../imagens/fundo-site.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -11,13 +11,13 @@ body{
     align-items: center;
     min-height: 100vh;
     padding: 30px;
-    box-shadow: inset 10px -1px 100px rgba(255, 255, 255, 0.196)
+    box-shadow: inset 10px 0px 100px rgb(0, 0, 0)
 }
 .cartao{
-    background-color: #0c1b2465;
-    width: 380px;
-    border: 3px solid #000000;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.386);
+    background-color: #151619c4;
+    width: 980px;
+    border: 3px solid #5842ff;
+    box-shadow: 0 0 10px #5842ff;
     border-radius: 10px;
     overflow: hidden;
 }
@@ -29,9 +29,9 @@ body{
     gap: 10px;
 }
 .cartao .infos img{
-    border-radius: 50px 10px;
-    border: 3px solid black;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.457);
+    border-radius: 10px;
+    border: 3px solid #5842ff;
+    box-shadow: 0 0 10px #5842ff;
 }
 .cartao .infos .nome{
     font-size: 26px;
@@ -57,17 +57,17 @@ body{
     transition: background-color 0.3s ease-in-out;
 }
 .cartao .abas img{
-    width: 30px;
+    width: 40px;
 }
 .cartao .abas .aba.selecionado{
-    background-color: #0a1d27de;
+    background-color: #0a0b1dde;
     border-radius: 10px 10px 0 0;
 }
 .cartao .infos-abas{
-    background-color: #0a1d27de;
+    background-color: #0a0b1dde;
 }
 .cartao .abas .aba:hover{
-    background-color: #123346de;
+    background-color: #171246de;
     border-radius: 10px 10px 0 0;
 }
 .infos-abas .informacao{
@@ -91,19 +91,20 @@ body{
     padding-right: 15px;
 }
 .infos-abas .descricao span{
-    color: #8d0202;
+    color: #5842ff;
 }
 
 .projetos{
     display: flex;
-    flex-direction: column;
     gap: 25px;
     align-items: center;
     max-height: 180px;
     overflow-y: auto;
+    padding-bottom: 20px;
 }
 .projetos li a{
-    width: 250px;
+    width: 298px;
+    height: 140px;
     display: block;
     text-align: center;
     padding: 10px;
@@ -112,31 +113,49 @@ body{
     border-radius: 10px;
 }
 .projetos .cardapio{
-    background-image: linear-gradient(to bottom left, #edb7da, #bd4b97);
+    background-image: url(../imagens/delicias.jpg);
+    background-size: cover;
+    border: 2px solid #fff;
 }
 .projetos .cfcfacil{
-    background-image: linear-gradient(to bottom left, #e9c602, #4971f3);
+    background-image: url(../imagens/cfcfacil.jpg);
+    background-size: cover;
+    border: 2px solid #fff;
 }
 .projetos .valorant{
-    background-image: linear-gradient(to bottom left, #ca0303, #000000);
+    background-image: url(../imagens/valorant.jpg);
+    background-size: cover;
+    border: 2px solid #fff;
 }
 .projetos .login-master{
-    background-image: linear-gradient(to bottom left, #e26b0a, #f0b991);
+    background-image: url(../imagens/login.jpg);
+    background-size: cover;
+    border: 2px solid #fff;
 }
 .projetos .ragnarok{
-    background-image: linear-gradient(to bottom left, #04277e, #8d8dee);
+    background-image: url(../imagens/gow.jpg);
+    background-size: cover;
+    border: 2px solid #fff;
 }
 .projetos .mario{
-    background-image: linear-gradient(to bottom left, #b40306, #fa2121);
+    background-image: url(../imagens/mario.jpg);
+    background-size: cover;
+    border: 2px solid #fff;
 }
 .projetos .nft-card{
-    background-image: linear-gradient(to bottom left, #167e04, #8dee92);
+    background-image: url(../imagens/cardnft.jpg);
+    background-size: cover;
+    border: 2px solid #fff;
 }
 .projetos .projeto-marvel{
-    background-image: linear-gradient(to bottom left, #862323, #0622a1);
+    background-image: url(../imagens/marvel.jpg);
+    background-size: cover;
+    border: 2px solid #fff;
 }
 .projetos .projeto-github{
-    background-image: linear-gradient(to bottom left, #c16621, #1a2a70);
+    background-image: url(../imagens/github.jpg);
+    background-size: cover;
+    border: 2px solid #fff;
 }
 .projetos li a:hover{
     opacity: 0.6;
@@ -144,14 +163,15 @@ body{
 
 .redes-sociais{
     display: flex;
-    flex-direction: column;
     gap: 25px;
     align-items: center;
     max-height: 180px;
     overflow-y: auto;
+    padding-bottom: 60px;
 }
 .redes-sociais li a{
-    width: 250px;
+    width: 217px;
+    height: 100px;
     display: block;
     text-align: center;
     padding: 10px;
@@ -161,21 +181,38 @@ body{
 }
 .redes-sociais .instagram{
     background-image: linear-gradient(to bottom left, #ef4508, #de1641, #914bbd);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
 }
 .redes-sociais .linkedin{
     background-image: linear-gradient(to bottom left, #1d87bd, #2fadf0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
 }
 .redes-sociais .github{
     background-image: linear-gradient(to bottom left, #161515, #474646);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
 }
 .redes-sociais .whatsapp{
     background-image: linear-gradient(to bottom left, #117e03, #49e82d);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #fff;
 }
 .redes-sociais li a:hover{
     opacity: 0.6;
+    
 }
 .redes-sociais i{
-    font-size: 22px;
+    font-size: 50px;
 }
 
 
