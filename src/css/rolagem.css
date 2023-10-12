@@ -1,6 +1,6 @@
 /* Works on Firefox */
 * {
-    scrollbar-width: thin;
+    scrollbar-width: auto;
     scrollbar-color: #02455c #070d12;
   }
   
